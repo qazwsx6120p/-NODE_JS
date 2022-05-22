@@ -1,0 +1,45 @@
+1.git init => 建立 .git 檔案夾，把你這個專案初始化成為 git 管理的檔案夾
+
+2.npm init =>.問一堆問題、建立一個 package.json (創建npm環境)
+
+3.專案資料夾建立 readme.md (讀我)
+
+4.專案資料夾建立 .gitignore (隱藏檔案)
+
+npm 指令參考:
+
+# 安裝某個 package
+$ npm i {package name}
+$ npm install {package name}
+
+# 會根據 package.json 來安裝套件
+$ npm i
+
+# 移除安裝過的套件
+$ npm uninstall {package name}
+
+# 列出專案中裝過的套件及其版本
+$ npm list
+
+# 只想看專案中的某一個套件的版本
+$ npm list axios
+
+# 查詢這個套件所有可安裝的版號
+$ npm view cowsay versions
+# 只要查某個套件最新的版號
+$ npm view cowsay version
+
+5.npm i axios
+    -const axios = require('axios');
+
+6.npm i mysql2
+    -連結資料庫
+
+7.npm i dotenv
+    -密碼設定檔案(連結)
+    1. .env 創建密碼連結 (記得放在.gitignore)
+    2. 創建 .env_example (範例)
+
+
+8.npm i express
+    -API串接
